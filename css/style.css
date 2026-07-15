@@ -1243,7 +1243,7 @@ body {
 }
 
 .ziko-hero-phone .phone-placeholder {
-    width: 340px;
+    width: 355px;
 }
 
 .ziko-statement {
@@ -1329,7 +1329,7 @@ body {
 }
 
 .ziko-feature-phone .phone-placeholder {
-    width: 280px;
+    width: 292px;
     transform: none;
     animation: none;
 }
@@ -1476,7 +1476,7 @@ body {
 
     .ziko-hero-phone .phone-placeholder,
     .ziko-feature-phone .phone-placeholder {
-        width: 240px;
+        width: 252px;
     }
 
     .ziko-statement,
