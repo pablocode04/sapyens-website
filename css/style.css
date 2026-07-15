@@ -1790,3 +1790,319 @@ body {
         font-size: 20px;
     }
 }
+
+/* ==========================================================
+   Typography Size Lift
+========================================================== */
+
+body {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 78px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 31px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.nav-links {
+    font-size: 18px;
+}
+
+.hero-label {
+    font-size: 16px;
+}
+
+.primary-button,
+.secondary-button,
+.store-button {
+    font-size: 18px;
+}
+
+.hero h1 {
+    font-size: clamp(54px, 7vw, 98px);
+}
+
+.hero-description {
+    font-size: 24px;
+}
+
+.about-text p,
+.contact p {
+    font-size: 24px;
+}
+
+.product-info h3 {
+    font-size: 46px;
+}
+
+.product-info p {
+    font-size: 23px;
+}
+
+.legal-hero h1 {
+    font-size: 56px;
+}
+
+.legal-meta p {
+    font-size: 16px;
+}
+
+.legal-toc h2 {
+    font-size: 22px;
+}
+
+.legal-toc-item > a,
+.legal-toc-item > span {
+    font-size: 15px;
+}
+
+.legal-toc-item.is-subsection > a,
+.legal-toc-item.is-subsection > span {
+    font-size: 14px;
+}
+
+.legal-document h2 {
+    font-size: 31px;
+}
+
+.legal-document h3 {
+    font-size: 24px;
+}
+
+.legal-document p,
+.legal-document li {
+    font-size: 19px;
+}
+
+.ziko-hero-content h1 {
+    font-size: clamp(54px, 7vw, 92px);
+}
+
+.ziko-hero-content > p:not(.hero-label) {
+    font-size: 24px;
+}
+
+.ziko-statement p {
+    font-size: 18px;
+}
+
+.ziko-statement h2 {
+    font-size: clamp(42px, 5vw, 70px);
+}
+
+.ziko-feature-text h2 {
+    font-size: clamp(40px, 5vw, 64px);
+}
+
+.ziko-feature-text p:not(.hero-label),
+.ziko-download > p:not(.hero-label) {
+    font-size: 23px;
+}
+
+.ziko-quote h2 {
+    font-size: clamp(46px, 6vw, 82px);
+}
+
+.ziko-download h2 {
+    font-size: clamp(46px, 5vw, 72px);
+}
+
+.faq-list summary {
+    font-size: 20px;
+}
+
+.faq-list details p {
+    font-size: 19px;
+}
+
+@media (max-width:1100px) {
+    h1 {
+        font-size: 61px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .legal-hero h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .nav-links {
+        font-size: 14px;
+    }
+
+    header.is-scrolled .nav-links {
+        font-size: 13px;
+    }
+
+    .hero-label {
+        font-size: 15px;
+    }
+
+    .primary-button,
+    .secondary-button,
+    .store-button {
+        font-size: 15px;
+    }
+
+    .hero h1,
+    .ziko-hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-description,
+    .about-text p,
+    .contact p,
+    .product-info p,
+    .ziko-hero-content > p:not(.hero-label),
+    .ziko-feature-text p:not(.hero-label),
+    .ziko-download > p:not(.hero-label),
+    .faq-list details p {
+        font-size: 16px;
+    }
+
+    .product-info h3 {
+        font-size: 25px;
+    }
+
+    .legal-hero h1 {
+        font-size: 30px;
+    }
+
+    .legal-meta p {
+        font-size: 14px;
+    }
+
+    .legal-toc h2 {
+        font-size: 16px;
+    }
+
+    .legal-toc-item > a,
+    .legal-toc-item > span {
+        font-size: 14px;
+    }
+
+    .legal-toc-item.is-subsection > a,
+    .legal-toc-item.is-subsection > span {
+        font-size: 13px;
+    }
+
+    .legal-document h2 {
+        font-size: 23px;
+    }
+
+    .legal-document h3 {
+        font-size: 18px;
+    }
+
+    .legal-document p,
+    .legal-document li {
+        font-size: 15px;
+    }
+
+    .ziko-statement p,
+    .faq-list summary {
+        font-size: 15px;
+    }
+
+    .ziko-statement h2,
+    .ziko-feature-text h2,
+    .ziko-quote h2,
+    .ziko-download h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:480px) {
+    h1 {
+        font-size: 31px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    header.is-scrolled .nav-links {
+        font-size: 12px;
+    }
+
+    .primary-button,
+    .secondary-button,
+    .store-button {
+        font-size: 14px;
+    }
+
+    .hero h1,
+    .ziko-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-description,
+    .about-text p,
+    .contact p,
+    .product-info p,
+    .ziko-hero-content > p:not(.hero-label),
+    .ziko-feature-text p:not(.hero-label),
+    .ziko-download > p:not(.hero-label),
+    .faq-list details p {
+        font-size: 15px;
+    }
+
+    .legal-hero h1 {
+        font-size: 27px;
+    }
+
+    .legal-document h2 {
+        font-size: 21px;
+    }
+
+    .legal-document h3 {
+        font-size: 16px;
+    }
+
+    .legal-document p,
+    .legal-document li {
+        font-size: 15px;
+    }
+
+    .ziko-statement h2,
+    .ziko-feature-text h2,
+    .ziko-quote h2,
+    .ziko-download h2 {
+        font-size: 23px;
+    }
+}
