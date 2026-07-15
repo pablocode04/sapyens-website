@@ -1,0 +1,1792 @@
+/* ==========================================================
+   SAPYENS WEBSITE
+   Global Styles
+========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:#FAFAFA;
+
+    color:#111111;
+
+    line-height:1.7;
+
+    overflow-x:hidden;
+
+}
+
+/* ==========================================================
+   Variables
+========================================================== */
+
+:root{
+
+    --primary:#0E7318;
+
+    --primary-dark:#0A5D13;
+
+    --secondary:#EA6A13;
+
+    --text:#111111;
+
+    --text-light:#666666;
+
+    --background:#FAFAFA;
+
+    --white:#FFFFFF;
+
+    --border:#E7E7E7;
+
+    --shadow:0 10px 40px rgba(0,0,0,.06);
+
+    --radius:18px;
+
+    --section-space:140px;
+
+    --container:1200px;
+
+}
+
+/* ==========================================================
+   Typography
+========================================================== */
+
+h1{
+
+    font-size:72px;
+
+    line-height:1.05;
+
+    font-weight:800;
+
+    letter-spacing:-2px;
+
+}
+
+h2{
+
+    font-size:46px;
+
+    font-weight:700;
+
+    letter-spacing:-1px;
+
+}
+
+h3{
+
+    font-size:28px;
+
+    font-weight:600;
+
+}
+
+p{
+
+    font-size:18px;
+
+    color:var(--text-light);
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+/* ==========================================================
+   Container
+========================================================== */
+
+section{
+
+    padding:var(--section-space) 30px;
+
+}
+
+.section-title{
+
+    max-width:var(--container);
+
+    margin:auto auto 70px;
+
+}
+
+.section-title h2{
+
+    text-align:center;
+
+}
+
+/* ==========================================================
+   Buttons
+========================================================== */
+
+.primary-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:18px 34px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 10px 30px rgba(14,115,24,.20);
+
+}
+
+.primary-button:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-3px);
+
+}
+
+.secondary-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:18px 34px;
+
+    border-radius:14px;
+
+    border:1px solid var(--border);
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.secondary-button:hover{
+
+    background:rgba(234,106,19,.08);
+
+    border-color:rgba(234,106,19,.28);
+
+    transform:translateY(-3px);
+
+}
+
+/* ==========================================================
+   Navigation
+========================================================== */
+
+header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    background:transparent;
+
+    border-bottom:1px solid transparent;
+
+    box-shadow:none;
+
+    backdrop-filter:blur(14px);
+
+    transition:background .25s ease,border-color .25s ease,box-shadow .25s ease;
+
+}
+
+header.is-scrolled{
+
+    background:rgba(242,248,243,.78);
+
+    border-bottom-color:rgba(17,17,17,.05);
+
+    box-shadow:0 8px 28px rgba(17,17,17,.035);
+
+}
+
+.navbar{
+
+    max-width:1250px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:24px 30px;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.logo img{
+
+    width:auto;
+
+    height:76px;
+
+    object-fit:contain;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:45px;
+
+    list-style:none;
+
+}
+
+.nav-links a{
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
+
+}
+
+/* ==========================================================
+   Hero
+========================================================== */
+
+.hero{
+
+    min-height:100vh;
+
+    max-width:1250px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1.2fr 1fr;
+
+    align-items:center;
+
+    gap:80px;
+
+    padding-top:170px;
+
+}
+
+.hero-label{
+
+    display:inline-block;
+
+    background:#EEF8F0;
+
+    color:var(--primary);
+
+    padding:10px 18px;
+
+    border-radius:100px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.hero-description{
+
+    max-width:620px;
+
+    margin-top:30px;
+
+    font-size:22px;
+
+}
+
+.hero-buttons{
+
+    margin-top:50px;
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.phone-placeholder{
+
+    width:320px;
+
+    aspect-ratio:1080 / 2340;
+
+    border-radius:26px;
+
+    background:white;
+
+    border:1px solid var(--border);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    color:#888;
+
+    box-shadow:var(--shadow);
+
+    overflow:hidden;
+
+}
+
+.phone-placeholder img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+}
+
+.phone-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.phone-carousel .phone-placeholder {
+    position: relative;
+    touch-action: pan-y;
+}
+
+.phone-carousel-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease;
+}
+
+.phone-carousel-slide.is-active {
+    opacity: 1;
+}
+
+.phone-carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.phone-carousel-dot {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(17,17,17,.18);
+    cursor: pointer;
+    transition: width .25s ease, background .25s ease;
+}
+
+.phone-carousel-dot.is-active {
+    width: 22px;
+    background: var(--secondary);
+}
+
+/* ==========================================================
+   About Section
+========================================================== */
+
+.about {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-text {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-text p {
+    margin-bottom: 24px;
+    font-size: 22px;
+}
+
+/* ==========================================================
+   Featured Product
+========================================================== */
+
+.product {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.product-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 34px;
+    padding: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.product-info h3 {
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+.product-info p {
+    max-width: 520px;
+    margin-bottom: 40px;
+    font-size: 21px;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+}
+
+/* ==========================================================
+   Vision Section
+========================================================== */
+
+.vision {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.vision-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 26px;
+    padding: 42px;
+    box-shadow: var(--shadow);
+    transition: 0.3s;
+}
+
+.vision-card:hover {
+    transform: translateY(-6px);
+}
+
+.vision-card h3 {
+    margin-bottom: 18px;
+}
+
+/* ==========================================================
+   Contact Section
+========================================================== */
+
+.contact {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact p {
+    margin-bottom: 35px;
+    font-size: 22px;
+}
+
+/* ==========================================================
+   Footer
+========================================================== */
+
+footer {
+    padding: 35px 30px;
+    border-top: 1px solid var(--border);
+    background: var(--white);
+}
+
+.footer-content {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-light);
+}
+
+.footer-links {
+    display: flex;
+    gap: 28px;
+}
+
+.footer-links a {
+    transition: 0.25s;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+}
+
+/* ==========================================================
+   Legal Document Pages
+========================================================== */
+
+.legal-page {
+    padding-top: 150px;
+}
+
+.legal-hero {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.legal-hero h1 {
+    max-width: 880px;
+    margin: 0 auto;
+    font-size: 52px;
+    line-height: 1.04;
+    letter-spacing: 0;
+}
+
+.legal-meta {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.legal-meta p {
+    padding: 10px 16px;
+    border: 1px solid rgba(17,17,17,.08);
+    border-radius: 999px;
+    background: rgba(255,255,255,.68);
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.legal-document-shell {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 130px;
+    display: grid;
+    grid-template-columns: 380px minmax(0, 1fr);
+    gap: 44px;
+    align-items: start;
+}
+
+.legal-toc {
+    position: sticky;
+    top: 125px;
+    max-height: calc(100vh - 155px);
+    overflow: auto;
+    padding: 28px;
+    border: 1px solid rgba(17,17,17,.08);
+    border-radius: 18px;
+    background: rgba(255,255,255,.72);
+    box-shadow: 0 18px 46px rgba(17,17,17,.055);
+    backdrop-filter: blur(16px);
+}
+
+.legal-toc h2 {
+    margin-bottom: 18px;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.legal-toc ol {
+    display: grid;
+    gap: 8px;
+    list-style: none;
+}
+
+.legal-toc-item > a,
+.legal-toc-item > span {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    gap: 14px;
+    align-items: baseline;
+    color: #3f3f3f;
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+.legal-toc-item a {
+    transition: color .2s ease;
+}
+
+.legal-toc-item a:hover {
+    color: var(--primary);
+}
+
+.legal-toc-item.is-subsection > a,
+.legal-toc-item.is-subsection > span {
+    padding-left: 16px;
+    font-size: 13px;
+    color: #666;
+}
+
+.legal-toc-number {
+    font-weight: 700;
+}
+
+.legal-toc-title {
+    min-width: 0;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: manual;
+}
+
+.legal-document {
+    padding: 54px 62px;
+    border: 1px solid rgba(17,17,17,.08);
+    border-radius: 18px;
+    background: rgba(255,255,255,.86);
+    box-shadow: 0 24px 70px rgba(17,17,17,.07);
+}
+
+.legal-document h2,
+.legal-document h3 {
+    scroll-margin-top: 135px;
+    letter-spacing: 0;
+    color: var(--text);
+}
+
+.legal-document h2 {
+    margin-top: 48px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.15;
+}
+
+.legal-document h2:first-child {
+    margin-top: 0;
+}
+
+.legal-document h3 {
+    margin-top: 36px;
+    margin-bottom: 14px;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.legal-document h2 span,
+.legal-document h3 span {
+    color: inherit;
+}
+
+.legal-document p,
+.legal-document li {
+    font-size: 17px;
+    line-height: 1.78;
+    color: #454545;
+}
+
+.legal-document p + p {
+    margin-top: 14px;
+}
+
+.legal-document ul {
+    margin: 16px 0 18px 26px;
+    display: grid;
+    gap: 8px;
+}
+
+.legal-document li {
+    padding-left: 4px;
+}
+
+.legal-document strong {
+    color: #161616;
+    font-weight: 800;
+}
+
+.legal-document a {
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.legal-divider {
+    width: 100%;
+    height: 1px;
+    margin: 34px 0;
+    border: 0;
+    background: linear-gradient(90deg, rgba(14,115,24,.24), rgba(234,106,19,.26), rgba(17,17,17,.06));
+}
+
+/* ==========================================================
+   Tablet
+========================================================== */
+
+@media (max-width:1100px){
+
+    h1{
+        font-size:56px;
+    }
+
+    h2{
+        font-size:38px;
+    }
+
+    .hero{
+
+        grid-template-columns:1fr;
+        text-align:center;
+        gap:60px;
+
+    }
+
+    .hero-description{
+
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .product-card{
+
+        grid-template-columns:1fr;
+        text-align:center;
+
+    }
+
+    .product-info p{
+
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+
+    .vision-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .legal-document-shell {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .legal-toc {
+        position: static;
+        max-height: none;
+    }
+
+    .legal-hero h1 {
+        font-size: 46px;
+    }
+
+}
+
+/* ==========================================================
+   Mobile
+========================================================== */
+
+@media (max-width:768px){
+
+    :root{
+
+        --section-space:90px;
+
+    }
+
+    .navbar{
+
+        flex-direction:column;
+        gap:20px;
+
+    }
+
+    .nav-links{
+
+        gap:24px;
+        flex-wrap:wrap;
+        justify-content:center;
+
+    }
+
+    h1{
+
+        font-size:42px;
+        letter-spacing:-1px;
+
+    }
+
+    h2{
+
+        font-size:32px;
+
+    }
+
+    h3{
+
+        font-size:24px;
+
+    }
+
+    p{
+
+        font-size:17px;
+
+    }
+
+    .hero{
+
+        padding-top:220px;
+
+    }
+
+    .hero-description{
+
+        font-size:19px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+    .primary-button,
+    .secondary-button{
+
+        width:240px;
+
+    }
+
+    .phone-placeholder{
+
+        width:260px;
+
+    }
+
+    .product-card{
+
+        padding:40px 30px;
+
+    }
+
+    .product-info h3{
+
+        font-size:34px;
+
+    }
+
+    .product-info p{
+
+        font-size:18px;
+
+    }
+
+    .about-text p{
+
+        font-size:19px;
+
+    }
+
+    .vision-card{
+
+        padding:30px;
+
+    }
+
+    .footer-content{
+
+        flex-direction:column;
+        gap:25px;
+        text-align:center;
+
+    }
+
+    .footer-links{
+
+        flex-wrap:wrap;
+        justify-content:center;
+
+    }
+
+    .legal-page {
+        padding-top: 190px;
+    }
+
+    .legal-hero {
+        padding-top: 60px;
+        padding-bottom: 45px;
+    }
+
+    .legal-hero h1 {
+        font-size: 36px;
+    }
+
+    .legal-document-shell {
+        padding-top: 20px;
+        padding-bottom: 90px;
+    }
+
+    .legal-document {
+        padding: 34px 24px;
+    }
+
+    .legal-document h2 {
+        font-size: 26px;
+    }
+
+    .legal-document h3 {
+        font-size: 20px;
+    }
+
+    .legal-toc {
+        padding: 18px;
+        border-radius: 14px;
+        max-height: 320px;
+        overflow: auto;
+    }
+
+    .legal-toc-item > a,
+    .legal-toc-item > span {
+        grid-template-columns: max-content minmax(0, 1fr);
+    }
+
+}
+
+/* ==========================================================
+   Small Phones
+========================================================== */
+
+@media (max-width:480px){
+
+    h1{
+
+        font-size:34px;
+
+    }
+
+    .hero-label{
+
+        font-size:14px;
+
+    }
+
+    .phone-placeholder{
+
+        width:220px;
+
+    }
+
+    .primary-button,
+    .secondary-button{
+
+        width:100%;
+
+    }
+
+    .legal-document-shell {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .legal-document p,
+    .legal-document li {
+        font-size: 16px;
+    }
+
+    .legal-hero h1 {
+        font-size: 30px;
+    }
+
+}
+
+/* ==========================================================
+   Premium Brand Upgrade - Hero Atmosphere
+========================================================== */
+
+body {
+    background:
+        radial-gradient(circle at 75% 15%, rgba(14, 115, 24, 0.13), transparent 34%),
+        radial-gradient(circle at 18% 30%, rgba(234, 106, 19, 0.10), transparent 30%),
+        linear-gradient(180deg, #fbfcff 0%, #fafafa 45%, #f7f8fb 100%);
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content,
+.hero-image {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-glow {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(90px);
+    opacity: 0.7;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.hero-glow-one {
+    width: 360px;
+    height: 360px;
+    background: rgba(14, 115, 24, 0.18);
+    top: 18%;
+    right: 6%;
+}
+
+.hero-glow-two {
+    width: 280px;
+    height: 280px;
+    background: rgba(234, 106, 19, 0.16);
+    bottom: 14%;
+    left: 10%;
+}
+
+.hero-grid {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: 0.24;
+    background-image:
+        linear-gradient(rgba(14, 115, 24, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(14, 115, 24, 0.08) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(circle at center, black, transparent 72%);
+    pointer-events: none;
+}
+
+.hero-label {
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(14, 115, 24, 0.14);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 10px 30px rgba(14, 115, 24, 0.08);
+    letter-spacing: 0.02em;
+}
+
+.hero h1 {
+    max-width: 720px;
+    font-size: clamp(48px, 7vw, 92px);
+    letter-spacing: -0.065em;
+}
+
+.hero-description {
+    max-width: 560px;
+    color: #555;
+}
+
+.primary-button {
+    background: linear-gradient(135deg, var(--primary), #129421);
+    box-shadow:
+        0 14px 34px rgba(14, 115, 24, 0.24),
+        inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+.primary-button:hover {
+    box-shadow:
+        0 18px 44px rgba(14, 115, 24, 0.32),
+        inset 0 1px 0 rgba(255,255,255,0.28);
+}
+
+.secondary-button {
+    background: rgba(255,255,255,0.58);
+    backdrop-filter: blur(12px);
+    border-color: rgba(234,106,19,.20);
+}
+
+.phone-placeholder {
+    transform: rotate(2deg);
+    box-shadow:
+        0 30px 90px rgba(17,17,17,0.14),
+        0 0 0 10px rgba(255,255,255,0.52);
+    animation: phoneFloat 7s ease-in-out infinite;
+}
+
+@keyframes phoneFloat {
+    0%, 100% {
+        transform: translateY(0) rotate(2deg);
+    }
+
+    50% {
+        transform: translateY(-18px) rotate(1deg);
+    }
+}
+
+/* ==========================================================
+   Ziko AI Page
+========================================================== */
+
+.ziko-page {
+    overflow: hidden;
+}
+
+.ziko-page section {
+    position: relative;
+}
+
+.ziko-hero {
+    min-height: 100vh;
+    max-width: 1250px;
+    margin: auto;
+    padding: 180px 30px 120px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 90px;
+    overflow: hidden;
+}
+
+.ziko-hero-content,
+.ziko-hero-phone {
+    position: relative;
+    z-index: 2;
+}
+
+.ziko-hero-content h1 {
+    max-width: 720px;
+    font-size: clamp(50px, 7vw, 86px);
+    line-height: 1.02;
+    letter-spacing: -0.055em;
+}
+
+.ziko-hero-content > p:not(.hero-label) {
+    max-width: 590px;
+    margin-top: 28px;
+    font-size: 22px;
+    color: #555;
+}
+
+.ziko-hero-phone {
+    display: flex;
+    justify-content: center;
+}
+
+.ziko-hero-phone .phone-placeholder {
+    width: 340px;
+}
+
+.ziko-statement {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.ziko-statement p {
+    margin-bottom: 18px;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.ziko-statement h2 {
+    font-size: clamp(38px, 5vw, 64px);
+    line-height: 1.08;
+}
+
+.ziko-feature {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 0.85fr);
+    align-items: center;
+    gap: 90px;
+    border-top: 1px solid rgba(17,17,17,.06);
+}
+
+.ziko-feature-soft {
+    grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1fr);
+}
+
+.ziko-feature-soft .ziko-feature-text {
+    order: 2;
+}
+
+.ziko-feature-soft .ziko-feature-phone {
+    order: 1;
+}
+
+.ziko-feature-dark {
+    max-width: none;
+    padding-left: max(30px, calc((100vw - 1250px) / 2 + 30px));
+    padding-right: max(30px, calc((100vw - 1250px) / 2 + 30px));
+    background:
+        linear-gradient(135deg, rgba(14,115,24,.94), rgba(13,48,18,.98));
+    color: white;
+    border-top: 0;
+}
+
+.ziko-feature-dark .hero-label {
+    color: white;
+    border-color: rgba(255,255,255,.22);
+    background: rgba(255,255,255,.12);
+}
+
+.ziko-feature-dark p,
+.ziko-feature-dark .ziko-feature-text p {
+    color: rgba(255,255,255,.78);
+}
+
+.ziko-feature-text h2 {
+    max-width: 560px;
+    margin-top: 22px;
+    font-size: clamp(36px, 5vw, 58px);
+    line-height: 1.08;
+}
+
+.ziko-feature-text p:not(.hero-label) {
+    max-width: 540px;
+    margin-top: 24px;
+    font-size: 21px;
+}
+
+.ziko-feature-phone {
+    display: flex;
+    justify-content: center;
+}
+
+.ziko-feature-phone .phone-placeholder {
+    width: 280px;
+    transform: none;
+    animation: none;
+}
+
+.ziko-quote {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: rgba(255,255,255,.42);
+    border-top: 1px solid rgba(17,17,17,.06);
+    border-bottom: 1px solid rgba(17,17,17,.06);
+}
+
+.ziko-quote h2 {
+    font-size: clamp(42px, 6vw, 76px);
+    line-height: 1.05;
+}
+
+.ziko-benefits {
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.ziko-benefits .vision-card {
+    min-height: 230px;
+}
+
+.ziko-download {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.ziko-download h2 {
+    margin-top: 22px;
+    font-size: clamp(42px, 5vw, 66px);
+}
+
+.ziko-download > p:not(.hero-label) {
+    max-width: 560px;
+    margin: 22px auto 0;
+    font-size: 21px;
+}
+
+.store-buttons {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.store-button {
+    min-width: 170px;
+    padding: 16px 24px;
+    border-radius: 14px;
+    background: #111;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 14px 34px rgba(17,17,17,.16);
+    transition: .25s;
+}
+
+.store-button:hover {
+    transform: translateY(-3px);
+    background: var(--secondary);
+}
+
+.ziko-faq {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+.faq-list {
+    display: grid;
+    gap: 14px;
+}
+
+.faq-list details {
+    background: rgba(255,255,255,.72);
+    border: 1px solid rgba(17,17,17,.07);
+    border-radius: 18px;
+    padding: 22px 26px;
+    box-shadow: 0 14px 34px rgba(17,17,17,.05);
+}
+
+.faq-list summary {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.faq-list details p {
+    margin-top: 14px;
+    font-size: 17px;
+}
+
+@media (max-width:1100px) {
+    .ziko-hero,
+    .ziko-feature,
+    .ziko-feature-soft {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 60px;
+    }
+
+    .ziko-hero-content h1,
+    .ziko-hero-content > p:not(.hero-label),
+    .ziko-feature-text h2,
+    .ziko-feature-text p:not(.hero-label) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ziko-feature-soft .ziko-feature-text,
+    .ziko-feature-soft .ziko-feature-phone {
+        order: initial;
+    }
+}
+
+@media (max-width:768px) {
+    .ziko-hero {
+        padding-top: 240px;
+        padding-bottom: 80px;
+    }
+
+    .ziko-hero-content h1 {
+        font-size: 42px;
+        letter-spacing: -0.03em;
+    }
+
+    .ziko-hero-content > p:not(.hero-label),
+    .ziko-feature-text p:not(.hero-label),
+    .ziko-download > p:not(.hero-label) {
+        font-size: 18px;
+    }
+
+    .ziko-hero-phone .phone-placeholder,
+    .ziko-feature-phone .phone-placeholder {
+        width: 240px;
+    }
+
+    .ziko-statement,
+    .ziko-feature,
+    .ziko-feature-dark,
+    .ziko-quote,
+    .ziko-benefits,
+    .ziko-download,
+    .ziko-faq {
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .store-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .store-button {
+        width: 100%;
+    }
+}
+
+/* ==========================================================
+   Phone Scale & Compact Scrolled Header
+========================================================== */
+
+@media (max-width:768px) {
+    :root {
+        --section-space: 68px;
+    }
+
+    body {
+        line-height: 1.55;
+    }
+
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-title {
+        margin-bottom: 38px;
+    }
+
+    .navbar {
+        padding: 18px 22px;
+        gap: 12px;
+    }
+
+    .logo img {
+        height: 56px;
+    }
+
+    .nav-links {
+        gap: 18px;
+        font-size: 13px;
+    }
+
+    header.is-scrolled .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px 16px;
+        gap: 10px;
+    }
+
+    header.is-scrolled .logo img {
+        height: 34px;
+    }
+
+    header.is-scrolled .nav-links {
+        gap: 12px;
+        flex-wrap: nowrap;
+        font-size: 12px;
+    }
+
+    header.is-scrolled .nav-links a {
+        line-height: 1;
+    }
+
+    h1 {
+        font-size: 26px;
+        letter-spacing: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 1.18;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.58;
+    }
+
+    .primary-button,
+    .secondary-button,
+    .store-button {
+        padding: 13px 20px;
+        font-size: 13px;
+        border-radius: 12px;
+    }
+
+    .hero {
+        padding-top: 176px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        line-height: 1.08;
+        letter-spacing: 0;
+    }
+
+    .hero-description {
+        margin-top: 22px;
+        font-size: 13px;
+    }
+
+    .hero-buttons {
+        margin-top: 34px;
+    }
+
+    .about-text p,
+    .contact p,
+    .product-info p {
+        font-size: 13px;
+    }
+
+    .product-info h3 {
+        font-size: 22px;
+    }
+
+    .legal-page {
+        padding-top: 148px;
+    }
+
+    .legal-hero {
+        padding-top: 42px;
+        padding-bottom: 34px;
+    }
+
+    .legal-hero h1 {
+        font-size: 26px;
+    }
+
+    .legal-meta p {
+        font-size: 12px;
+    }
+
+    .legal-toc h2 {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .legal-toc ol {
+        gap: 7px;
+    }
+
+    .legal-toc-item > a,
+    .legal-toc-item > span {
+        gap: 10px;
+        font-size: 12px;
+        line-height: 1.28;
+    }
+
+    .legal-toc-item.is-subsection > a,
+    .legal-toc-item.is-subsection > span {
+        padding-left: 12px;
+        font-size: 11px;
+    }
+
+    .legal-toc-number {
+        min-width: 28px;
+    }
+
+    .legal-document h2 {
+        margin-top: 34px;
+        margin-bottom: 14px;
+        font-size: 20px;
+    }
+
+    .legal-document h3 {
+        margin-top: 26px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .legal-document p,
+    .legal-document li {
+        font-size: 13px;
+    }
+
+    .legal-divider {
+        margin: 24px 0;
+    }
+
+    .ziko-hero {
+        padding-top: 190px;
+    }
+
+    .ziko-hero-content h1 {
+        font-size: 28px;
+        line-height: 1.08;
+        letter-spacing: 0;
+    }
+
+    .ziko-hero-content > p:not(.hero-label),
+    .ziko-feature-text p:not(.hero-label),
+    .ziko-download > p:not(.hero-label),
+    .faq-list details p {
+        font-size: 13px;
+    }
+
+    .ziko-statement p {
+        font-size: 13px;
+    }
+
+    .ziko-statement h2,
+    .ziko-feature-text h2,
+    .ziko-quote h2,
+    .ziko-download h2 {
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 1.12;
+    }
+
+    .faq-list summary {
+        font-size: 13px;
+    }
+
+    .store-button {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:480px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .primary-button,
+    .secondary-button,
+    .store-button {
+        padding: 12px 18px;
+        font-size: 12px;
+    }
+
+    .hero h1,
+    .ziko-hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-description,
+    .about-text p,
+    .contact p,
+    .product-info p,
+    .ziko-hero-content > p:not(.hero-label),
+    .ziko-feature-text p:not(.hero-label),
+    .ziko-download > p:not(.hero-label),
+    .faq-list details p {
+        font-size: 13px;
+    }
+
+    header.is-scrolled .logo img {
+        height: 30px;
+    }
+
+    header.is-scrolled .nav-links {
+        gap: 10px;
+        font-size: 11px;
+    }
+
+    .legal-document p,
+    .legal-document li {
+        font-size: 12px;
+    }
+
+    .legal-hero h1 {
+        font-size: 24px;
+    }
+
+    .legal-document h2 {
+        font-size: 18px;
+    }
+
+    .legal-document h3 {
+        font-size: 14px;
+    }
+
+    .ziko-statement h2,
+    .ziko-feature-text h2,
+    .ziko-quote h2,
+    .ziko-download h2 {
+        font-size: 20px;
+    }
+}
