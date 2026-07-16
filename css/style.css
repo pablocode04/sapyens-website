@@ -763,6 +763,12 @@ footer {
     gap: 8px;
 }
 
+.legal-document ol {
+    margin: 16px 0 18px 26px;
+    display: grid;
+    gap: 8px;
+}
+
 .legal-document li {
     padding-left: 4px;
 }
@@ -776,6 +782,32 @@ footer {
     color: var(--primary);
     text-decoration: underline;
     text-underline-offset: 3px;
+}
+
+.legal-subtle-action {
+    margin-top: 22px;
+}
+
+.legal-document .legal-subtle-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 13px;
+    border: 1px solid rgba(14,115,24,.14);
+    border-radius: 999px;
+    background: rgba(14,115,24,.035);
+    color: #3f5942;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: background .2s ease, border-color .2s ease, color .2s ease;
+}
+
+.legal-document .legal-subtle-button:hover {
+    border-color: rgba(14,115,24,.28);
+    background: rgba(14,115,24,.075);
+    color: var(--primary);
 }
 
 .legal-divider {
