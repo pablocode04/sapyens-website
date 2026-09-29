@@ -1,0 +1,959 @@
+Ziko AI Privacy Policy
+
+Version: 1.0
+
+Effective Date: 01/10/2026
+
+Last Updated: 01/10/2026
+
+Table of Contents
+
+1. Privacy at SAPYENS
+
+2. Scope of This Privacy Policy
+
+3. Who We Are
+
+4. Definitions
+
+5. Information We Collect
+
+5.1. Information You Provide
+
+5.2. Information Collected Automatically
+
+5.3. Permissions You Choose to Grant
+
+5.4. Purchase Information
+
+5.5. Information We Do Not Collect
+
+6. How We Use Your Information
+
+6.1. To Provide the Service
+
+6.2. To Personalize Your Experience
+
+6.3. To Process AI-Powered Features
+
+6.4. To Improve Ziko AI
+
+6.5. To Communicate With You
+
+6.6. Notifications
+
+6.7. Subscription Management
+
+6.8. Safety, Security, and Legal Compliance
+
+6.9. Our Commitment
+
+7. AI Features
+
+7.1. When AI Is Used
+
+7.2. Information Processed by AI
+
+7.3. How AI Results Are Used
+
+7.4. Human Review
+
+7.5. AI Limitations
+
+7.6. Our Commitment Regarding AI
+
+8. Sharing Your Information
+
+8.1. Service Providers
+
+8.2. Payment Processing
+
+8.3. Authentication Providers
+
+8.4. User-Directed Sharing
+
+8.5. Referral, Promotional, and Partner Programs
+
+8.6. Legal Requirements
+
+8.7. Business Transfers
+
+8.8. What We Do Not Share
+
+8.9. Future Service Providers
+
+9. Protecting and Managing Your Information
+
+9.1. How Your Information Is Stored
+
+9.2. Security Measures
+
+9.3. How Long We Keep Your Information
+
+9.4. Account Deletion
+
+9.5. Deleting Your Nutrition and Workout Data
+
+9.6. Voice Recordings
+
+9.7. Our Security Commitment
+
+10. Your Privacy Rights
+
+10.1. Access and Update Your Information
+
+10.2. Delete Your Account
+
+10.3. Delete Your Data
+
+10.4. Manage Device Permissions
+
+10.5. Contacting Us About Your Privacy
+
+11. Children's Privacy
+
+12. International Users
+
+13. Additional Technologies and Service Improvements
+
+13.1. Analytics
+
+13.2. Crash Reporting
+
+14. Changes to This Privacy Policy
+
+15. Contact Us
+
+1. Privacy at SAPYENS
+
+At SAPYENS, we believe your personal information belongs to you.
+
+Ziko AI is designed to help you achieve your nutrition and fitness goals through personalized features powered by modern technology and artificial intelligence. To provide these features, we need to collect and process certain information that you choose to share with us.
+
+We are committed to being transparent about how we collect, use, store, and protect your information. We collect only the information that is reasonably necessary to provide and improve the Service, and we do not sell your personal information.
+
+This Privacy Policy explains what information we collect, why we collect it, how we use it, when it may be shared, and the choices and rights you have regarding your information.
+
+Our goal is to present this information in clear and understandable language so you can make informed decisions about your privacy when using Ziko AI.
+
+2. Scope of This Privacy Policy
+
+This Privacy Policy applies to:
+
+• The Ziko AI mobile application;
+
+• The SAPYENS website;
+
+• Communications between you and SAPYENS regarding Ziko AI; and
+
+• All related products, features, and services offered through Ziko AI (collectively, the "Service").
+
+This Privacy Policy does not apply to third-party websites, applications, or services that are governed by their own privacy policies.
+
+3. Who We Are
+
+Ziko AI is developed and operated under the SAPYENS brand.
+
+For legal purposes, the Service is operated by Fabio Habchi, conducting business under the commercial name SAPYENS.
+
+Throughout this Privacy Policy, the terms "SAPYENS", "we", "us", and "our" refer to the operator of the Service.
+
+By creating an account or using Ziko AI, you acknowledge that you have read and understood this Privacy Policy.
+
+If you do not agree with this Privacy Policy, you should not access or use the Service.
+
+4. Definitions
+
+For the purposes of this Privacy Policy:
+
+Account means your registered Ziko AI account.
+
+Personal Information means any information that identifies, relates to, describes, or can reasonably be associated with an identifiable individual.
+
+Health Information means wellness-related information that you choose to provide through the Service, including nutrition, body measurements, workout information, fitness goals, and progress tracking data.
+
+User Content means any information or content that you voluntarily submit through the Service, including text, images, voice recordings, meal photographs, progress photographs, and other uploaded content.
+
+AI Features means the artificial intelligence-powered functionality available within Ziko AI, including meal analysis, recipe generation, workout generation, and other personalized features.
+
+Third-Party Services means trusted external providers that help us operate the Service, including cloud infrastructure providers, authentication providers, payment processors, artificial intelligence providers, email delivery providers, and other technology partners.
+
+Service means the Ziko AI mobile application, the SAPYENS website, and all related products and services provided under the SAPYENS brand.
+
+You or User means any individual who accesses or uses the Service.
+
+5. Information We Collect
+
+The information we collect depends on how you use Ziko AI and the features you choose to use. Some information is provided directly by you, some is generated as you use the Service, and some is collected automatically to help us operate the Service securely and reliably.
+
+5.1. Information You Provide
+
+Account Information
+
+When you create an account, we may collect:
+
+• Username
+
+• Email address
+
+• Encrypted password (when using email sign-in)
+
+• Optional profile picture
+
+• Authentication method (Email, Google Sign-In, or Sign in with Apple)
+
+• Referral, promotional, or invitation codes that you choose to apply
+
+This information is used to create, manage, and secure your account.
+
+Profile and Personalization Information
+
+To personalize your experience, you may choose to provide:
+
+• Age
+
+• Gender
+
+• Height
+
+• Current weight
+
+• Goal weight
+
+• Activity level
+
+• Fitness goal (such as weight loss, muscle gain, or maintenance)
+
+• Dietary preferences
+
+• Food restrictions
+
+• Workout experience
+
+• Available equipment
+
+• Preferred workout location (home or gym)
+
+• Available workout days
+
+• Preferred workout duration
+
+• Injury information that you voluntarily choose to share
+
+Providing this information is optional; however, some personalized features may be unavailable or less accurate if certain information is not provided.
+
+Nutrition and Fitness Information
+
+As you use Ziko AI, you may create and store information including:
+
+• Meals you log
+
+• Meal photographs
+
+• Estimated nutritional information
+
+• Calories
+
+• Macronutrients
+
+• Micronutrients
+
+• Weight history
+
+• Optional progress photographs
+
+• Workout history
+
+• Workout plans created or saved through the Service
+
+This information allows you to monitor your progress and enables personalized recommendations throughout the Service.
+
+Where available, you may also choose to share selected wellness information with a nutritionist, coach, partner, or similar professional or program participant through the Service. In those cases, we may process your sharing preferences, consent status, relationship status, and the categories of information you choose to share, such as nutrition, workout, or weight-related information.
+
+User Content
+
+Depending on the features you use, you may voluntarily submit content such as:
+
+• Meal photographs
+
+• Progress photographs
+
+• Text describing meals
+
+• Voice recordings used for meal logging
+
+• Messages submitted when using AI-powered features
+
+We process this content solely to provide the features you request.
+
+5.2. Information Collected Automatically
+
+To operate Ziko AI securely and reliably, we may automatically collect limited technical information, including:
+
+• Device type
+
+• Operating system version
+
+• Application version
+
+• Device language
+
+• Time zone or approximate region information needed to support time-based features
+
+• Authentication logs
+
+• Security-related information
+
+• General diagnostic information
+
+• Crash, error, and performance information
+
+• Product interaction information, such as feature usage, app events, and actions taken within the Service
+
+• Notification identifiers, delivery information, and related technical data when notifications are enabled
+
+This information helps us maintain security, troubleshoot technical issues, and improve compatibility across supported devices.
+
+5.3. Permissions You Choose to Grant
+
+Certain features require permission to access capabilities of your device.
+
+Camera
+
+Used to capture meal photographs and optional progress photographs.
+
+Photo Library
+
+Used to upload existing meal photographs or progress photographs from your device.
+
+Microphone
+
+Used to record voice input for meal logging.
+
+Notifications
+
+Used to send reminders and important service-related notifications.
+
+To provide notifications, we may process notification identifiers, delivery information, and related technical information. You can disable notifications at any time through your device settings.
+
+You may grant, deny, or revoke these permissions at any time through your device settings. Please note that disabling certain permissions may prevent some features from functioning as intended.
+
+5.4. Purchase Information
+
+If you purchase a subscription, payments are processed exclusively by the Apple App Store or Google Play Store.
+
+We do not receive or store your payment card information.
+
+We receive only the limited information necessary to verify your subscription status and provide access to premium features.
+
+This may include your subscription status, selected plan, entitlement information, credit balance information, purchase or renewal status, refund or cancellation status, app-store transaction identifiers, and any promotional or referral attribution associated with a purchase or subscription.
+
+5.5. Information We Do Not Collect
+
+We believe transparency also means explaining what we do not collect.
+
+Ziko AI does not:
+
+• Access or track your precise location.
+
+• Access your contacts.
+
+• Access your text messages.
+
+• Access your call history.
+
+• Receive or store your payment card information.
+
+• Access files or photographs stored on your device unless you explicitly choose to share them with the Service.
+
+6. How We Use Your Information
+
+We use your information only for purposes that are necessary to provide, maintain, improve, and protect Ziko AI. The way your information is used depends on the features you choose to use.
+
+6.1. To Provide the Service
+
+We use your information to:
+
+• Create and manage your account.
+
+• Authenticate your identity when you sign in.
+
+• Synchronize your information across your devices.
+
+• Provide access to free and premium features.
+
+• Save your preferences and personalized settings.
+
+• Deliver the functionality you request.
+
+Without this information, certain features of Ziko AI would not be available.
+
+6.2. To Personalize Your Experience
+
+One of the core purposes of Ziko AI is to provide a personalized nutrition and fitness experience.
+
+We use the information you provide to:
+
+• Calculate your nutritional targets.
+
+• Generate personalized workout plans.
+
+• Tailor recommendations for your goals and preferences.
+
+• Track your progress over time.
+
+• Generate personalized insights.
+
+• Improve the relevance of AI-powered features.
+
+The quality of these personalized features depends on the accuracy and completeness of the information you choose to provide.
+
+6.3. To Process AI-Powered Features
+
+When you choose to use AI-powered features, we process the information necessary to provide the functionality you request.
+
+Depending on the feature being used, this may include:
+
+• Meal photographs.
+
+• Voice input.
+
+• Text input.
+
+• Relevant profile information.
+
+• Nutrition and fitness information needed to generate personalized results.
+
+We process only the information that is reasonably necessary to deliver the requested AI-powered feature.
+
+Additional information about AI-powered functionality is provided in our AI Disclaimer.
+
+6.4. To Improve Ziko AI
+
+We continuously improve Ziko AI to provide a better experience for our users.
+
+Your information may be used to:
+
+• Improve application performance.
+
+• Maintain compatibility with supported devices.
+
+• Fix software bugs.
+
+• Enhance existing features.
+
+• Develop new features.
+
+• Improve the quality and reliability of our nutrition, fitness, and AI-powered functionality.
+
+Where possible, improvements are based on aggregated or non-identifying information rather than information that directly identifies individual users.
+
+6.5. To Communicate With You
+
+We may use your information to communicate with you regarding your account or your use of Ziko AI.
+
+These communications may include:
+
+• Account verification.
+
+• Password reset emails.
+
+• Security notifications.
+
+• Important updates about the Service.
+
+• Changes to this Privacy Policy or other legal documents.
+
+• Responses to support requests.
+
+These communications are considered necessary for providing the Service.
+
+6.6. Notifications
+
+With your permission, Ziko AI may send notifications to help you stay engaged with your nutrition and fitness goals.
+
+These notifications may include:
+
+• Meal reminders.
+
+• Workout reminders.
+
+• Weight tracking reminders.
+
+• Goal reminders.
+
+• Streak reminders.
+
+• Other service-related notifications.
+
+Most notification preferences can be managed within the application or through your device settings.
+
+We may use limited notification-related information to deliver notifications, manage notification preferences, troubleshoot delivery issues, and avoid sending duplicate or unnecessary notifications.
+
+6.7. Subscription Management
+
+If you purchase a subscription, we use limited purchase-related information to:
+
+• Verify your subscription status.
+
+• Activate premium and platinum features.
+
+• Restore eligible purchases.
+
+• Manage subscription renewals and access.
+
+• Apply eligible promotional, referral, or partner-related offers.
+
+• Maintain credit balances, credit purchases, and subscription entitlements.
+
+All payment transactions are processed directly by the Apple App Store or Google Play Store.
+
+6.8. Safety, Security, and Legal Compliance
+
+We may process information when reasonably necessary to:
+
+• Protect the security of Ziko AI.
+
+• Detect unauthorized access or misuse.
+
+• Prevent fraud or abuse.
+
+• Protect the rights, property, or safety of SAPYENS, our users, or others.
+
+• Comply with applicable laws and legal obligations.
+
+• Enforce our Terms of Service.
+
+6.9. Our Commitment
+
+We use your personal information only for the purposes described in this Privacy Policy.
+
+We do not sell your personal information, and we do not share it with advertisers for targeted advertising.
+
+When we work with trusted service providers, they process information only to the extent necessary to support the operation of Ziko AI and in accordance with applicable privacy obligations.
+
+7. AI Features
+
+Artificial intelligence is a core part of Ziko AI and enables features such as meal analysis, personalized workout generation, recipe suggestions, and other intelligent assistance designed to enhance your experience.
+
+We believe it is important to be transparent about how AI is used within the Service.
+
+7.1. When AI Is Used
+
+AI-powered processing occurs only when you choose to use features that require it.
+
+Depending on the feature you use, this may include:
+
+• Analyzing meal photographs.
+
+• Processing meal descriptions entered as text.
+
+• Processing voice input used for meal logging.
+
+• Generating personalized workout plans.
+
+• Generating recipe suggestions.
+
+AI processing is performed only to provide the functionality you have requested.
+
+7.2. Information Processed by AI
+
+To provide AI-powered features, we may process information including:
+
+• Meal photographs.
+
+• Voice recordings submitted for meal logging.
+
+• Text that you enter.
+
+• Relevant profile information.
+
+• Nutrition and fitness information necessary to generate personalized results.
+
+Only the information reasonably necessary to fulfill your request is processed.
+
+7.3. How AI Results Are Used
+
+The results generated by AI are used exclusively to provide the requested feature within Ziko AI.
+
+Examples include:
+
+• Identifying foods.
+
+• Estimating nutritional information.
+
+• Generating workout plans.
+
+• Suggesting recipes.
+
+• Personalizing recommendations.
+
+AI-generated results become part of your account only when they are saved within the Service.
+
+7.4. Human Review
+
+AI-generated requests and responses are processed automatically.
+
+SAPYENS does not routinely review your meal photographs, voice recordings, or AI interactions.
+
+Access to user information is limited to authorized personnel only when reasonably necessary to maintain, secure, troubleshoot, or improve the Service, or when required by applicable law.
+
+7.5. AI Limitations
+
+While we strive to provide accurate and helpful AI-powered features, artificial intelligence may occasionally generate inaccurate, incomplete, or unexpected results.
+
+For this reason, AI-generated content should be considered informational and should not be relied upon as professional medical, nutritional, or fitness advice.
+
+Additional information is available in our AI Disclaimer and Medical Disclaimer.
+
+7.6. Our Commitment Regarding AI
+
+We are committed to using artificial intelligence responsibly.
+
+Accordingly:
+
+• We do not use your personal information to train proprietary AI models developed by SAPYENS.
+
+• We process only the information reasonably necessary to provide the AI feature you request.
+
+• We do not use AI to make fully automated decisions that produce legal or similarly significant effects on you.
+
+• We continuously evaluate our AI-powered features to improve their reliability, safety, and overall user experience.
+
+8. Sharing Your Information
+
+Your privacy is important to us.
+
+We do not sell, rent, or trade your personal information to third parties.
+
+We share information only when it is necessary to provide the Service, comply with legal obligations, protect our rights, or support the secure operation of Ziko AI.
+
+8.1. Service Providers
+
+We work with carefully selected third-party service providers that help us operate and maintain Ziko AI.
+
+Depending on the services you choose to use, these providers may assist with:
+
+• Cloud infrastructure and secure data storage.
+
+• User authentication.
+
+• Subscription and payment processing.
+
+• Artificial intelligence services.
+
+• Email delivery.
+
+• Other technical services necessary to operate the Service.
+
+These providers receive only the information reasonably necessary to perform the services they provide on our behalf.
+
+They may support functions such as hosting, storage, authentication, payment verification, subscription management, artificial intelligence processing, communications, notifications, analytics, diagnostics, crash reporting, security, and customer support.
+
+8.2. Payment Processing
+
+All subscription purchases are processed directly through the Apple App Store or Google Play Store.
+
+SAPYENS does not receive, process, or store your payment card information.
+
+We receive only limited information required to verify your subscription status and provide access to premium features.
+
+8.3. Authentication Providers
+
+If you choose to sign in using a third-party authentication provider, certain authentication-related information is processed by that provider according to its own privacy policy.
+
+The authentication methods currently supported by Ziko AI include:
+
+• Email and password.
+
+• Google Sign-In.
+
+• Sign in with Apple.
+
+8.4. User-Directed Sharing
+
+Some features may allow you to share selected information with a nutritionist, coach, partner, or similar professional or program participant. This sharing occurs only when you choose to enable it or otherwise provide consent through the Service.
+
+Depending on the feature and your choices, shared information may include selected profile, nutrition, workout, weight, progress, or wellness information. You may be able to manage or revoke this sharing through the Service. Revoking access may limit the ability of the relevant professional or program participant to provide support through Ziko AI.
+
+8.5. Referral, Promotional, and Partner Programs
+
+If you use a referral code, promotional code, invitation code, partner offer, or similar program, we may process information necessary to apply the offer, verify eligibility, prevent abuse, attribute the offer, administer rewards or commissions, and maintain related business records.
+
+This information may include the code used, offer status, subscription or purchase status, account eligibility, attribution records, and limited transaction-related information. We do not share your personal health information with referral or promotional partners unless you separately choose to enable a feature that involves user-directed sharing.
+
+8.6. Legal Requirements
+
+We may disclose information if we reasonably believe that doing so is necessary to:
+
+• Comply with applicable laws or legal obligations.
+
+• Respond to lawful requests from public authorities.
+
+• Protect the rights, property, or safety of SAPYENS, our users, or others.
+
+• Detect, investigate, or prevent fraud, security incidents, or other unlawful activity.
+
+8.7. Business Transfers
+
+If SAPYENS is involved in a merger, acquisition, investment, restructuring, or sale of all or part of its business or assets, your information may be transferred as part of that transaction.
+
+If such a transfer materially affects how your personal information is handled, we will take reasonable steps to notify you where required by applicable law.
+
+8.8. What We Do Not Share
+
+To help you better understand our privacy practices, we want to clearly explain what we do not do.
+
+We do not:
+
+• Sell your personal information.
+
+• Rent your personal information.
+
+• Share your personal information with advertisers for targeted advertising.
+
+• Give third parties unrestricted access to your personal information.
+
+• Share more information than is reasonably necessary for a service provider to perform its role.
+
+8.9. Future Service Providers
+
+As Ziko AI continues to evolve, SAPYENS may introduce additional trusted service providers to improve the security, reliability, functionality, or performance of the Service.
+
+When a new provider materially changes how personal information is processed, this Privacy Policy will be updated accordingly.
+
+9. Protecting and Managing Your Information
+
+Protecting your information is a fundamental part of how we build and operate Ziko AI.
+
+We use industry-standard technical, administrative, and organizational safeguards designed to help protect your personal information from unauthorized access, loss, misuse, alteration, or disclosure.
+
+As technology evolves, we continuously review and improve our security practices to help keep your information protected.
+
+9.1. How Your Information Is Stored
+
+Information associated with your account is securely stored using cloud infrastructure operated on behalf of SAPYENS.
+
+Depending on how you use Ziko AI, this may include:
+
+• Account information;
+
+• Nutrition and wellness information;
+
+• Workout information;
+
+• Meal photographs;
+
+• Progress photographs;
+
+• Subscription status;
+
+• AI-generated content that you choose to save; and
+
+• Other information you voluntarily store within the Service.
+
+We store only the information reasonably necessary to operate, maintain, and improve the Service.
+
+9.2. Security Measures
+
+To help protect your information, we implement security measures including, where appropriate:
+
+• Encrypted connections (HTTPS);
+
+• Secure authentication systems;
+
+• Encrypted password storage;
+
+• Role-based access controls;
+
+• Secure cloud infrastructure; and
+
+• Ongoing monitoring of the security and reliability of the Service.
+
+Access to personal information is restricted to authorized systems and, where necessary, authorized personnel who require access to operate, maintain, or support the Service.
+
+9.3. How Long We Keep Your Information
+
+We retain your information only for as long as it is reasonably necessary to:
+
+• Provide the Service;
+
+• Maintain your account;
+
+• Deliver the features you choose to use;
+
+• Comply with applicable legal obligations;
+
+• Resolve disputes;
+
+• Protect the security and integrity of the Service; or
+
+• Enforce our legal agreements.
+
+The length of time information is retained depends on the type of information and the purpose for which it was collected.
+
+9.4. Account Deletion
+
+You may request deletion of your account at any time through the settings available within Ziko AI.
+
+When an account deletion request is submitted:
+
+• Your account enters a 14-day pending deletion period.
+
+• During this period, your account remains recoverable if you sign back into Ziko AI.
+
+• Signing back into your account during the pending deletion period automatically cancels the deletion request and restores your account.
+
+If no login occurs during the 14-day period, your account and associated personal information are permanently deleted from our systems, except where limited retention is required by applicable law.
+
+Some limited records may be retained where reasonably necessary for legal, tax, accounting, fraud prevention, security, dispute resolution, support, subscription, refund, chargeback, referral, partner, or compliance purposes. Where retained, such records are kept only for as long as reasonably necessary for the applicable purpose.
+
+9.5. Deleting Your Nutrition and Workout Data
+
+You may choose to delete certain categories of information without deleting your account.
+
+Where supported by the Service, this includes nutrition history, workout history, and associated records.
+
+Deleting this information may affect personalized recommendations and other features that rely on your historical data.
+
+Where applicable, meal photographs and progress photographs associated with deleted nutrition records will also be permanently removed.
+
+9.6. Voice Recordings
+
+Voice recordings submitted for meal logging are processed only for the purpose of providing the requested feature.
+
+Voice recordings may be transmitted to trusted service providers acting on our behalf when necessary to provide the requested feature.
+
+Voice recordings are not retained by SAPYENS after processing.
+
+9.7. Our Security Commitment
+
+Protecting your privacy is an ongoing responsibility.
+
+While no online service can guarantee absolute security, SAPYENS is committed to applying recognized security practices and continuously improving the safeguards used to protect your information.
+
+We regularly evaluate and enhance our security measures to help maintain the confidentiality, integrity, and availability of the information entrusted to us.
+
+10. Your Privacy Rights
+
+We believe you should remain in control of your personal information.
+
+Depending on your location and applicable laws, you may have certain rights regarding the personal information associated with your account.
+
+10.1. Access and Update Your Information
+
+Most of your account and profile information can be viewed and updated directly within Ziko AI.
+
+If you believe that any personal information we hold about you is inaccurate or incomplete, you may update it within the Service or contact us for assistance.
+
+10.2. Delete Your Account
+
+You may request deletion of your account at any time through the settings available within Ziko AI.
+
+Your account will then follow the deletion process described in Section 9 of this Privacy Policy.
+
+10.3. Delete Your Data
+
+Where supported by the Service, you may delete certain categories of information, including your nutrition history and workout history, without deleting your account.
+
+Please note that removing this information may reduce the accuracy of personalized recommendations and other features that rely on your historical data.
+
+10.4. Manage Device Permissions
+
+You control the permissions granted to Ziko AI.
+
+You may allow, deny, or revoke access to your device's:
+
+• Camera;
+
+• Photo Library;
+
+• Microphone; and
+
+• Notifications.
+
+These permissions can be managed at any time through your device settings.
+
+Disabling certain permissions may prevent some features from functioning as intended.
+
+10.5. Contacting Us About Your Privacy
+
+If you have questions about this Privacy Policy or wish to exercise any privacy rights available to you under applicable law, you may contact us using the contact information provided at the end of this Privacy Policy.
+
+We will make reasonable efforts to respond within the timeframes required by applicable law.
+
+11. Children's Privacy
+
+Ziko AI is intended for individuals who are 13 years of age or older.
+
+We do not knowingly collect personal information from children under the age of 13.
+
+If we become aware that personal information has been collected from a child under the age of 13 in a manner that does not comply with applicable law, we will take reasonable steps to delete that information as soon as reasonably practicable.
+
+If you believe that a child has provided personal information through Ziko AI, please contact us so that we can investigate and, where appropriate, remove the information.
+
+12. International Users
+
+Ziko AI is available to users around the world.
+
+By using the Service, you understand that your personal information may be processed and stored in countries other than the country in which you reside, including countries where SAPYENS or our trusted service providers operate.
+
+Regardless of where your information is processed, SAPYENS is committed to applying appropriate safeguards designed to protect your personal information in accordance with applicable privacy laws.
+
+13. Additional Technologies and Service Improvements
+
+As Ziko AI continues to evolve, SAPYENS may introduce new features and technologies to improve the functionality, reliability, security, and overall user experience of the Service.
+
+Whenever a new feature materially changes how personal information is collected, used, stored, or shared, we will update this Privacy Policy accordingly.
+
+13.1. Analytics
+
+SAPYENS uses limited analytics to better understand how users interact with Ziko AI and to improve the quality, reliability, and usability of the Service.
+
+Analytics may be used to:
+
+• Understand feature usage.
+
+• Measure application performance.
+
+• Improve the user experience.
+
+• Identify opportunities to enhance the Service.
+
+Analytics information may include product interaction data, feature usage, app events, device and app information, and similar non-payment technical information. We do not use analytics to sell your personal information or to share your personal information with advertisers for targeted advertising.
+
+13.2. Crash Reporting
+
+To improve the reliability and stability of Ziko AI, SAPYENS uses crash reporting and diagnostic tools.
+
+These tools may collect limited technical information relating to application crashes, software errors, performance issues, and device compatibility.
+
+This information will be used solely to diagnose technical issues, improve application stability, and enhance the reliability of the Service.
+
+Crash reporting and diagnostic information is not used for targeted advertising.
+
+14. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes to Ziko AI, applicable laws, security practices, or the way we process personal information.
+
+Whenever this Privacy Policy is updated, the Last Updated date at the beginning of the document will be revised.
+
+If we make changes that materially affect your privacy rights or the way your personal information is handled, we will provide notice through the Service or by other appropriate means where required by applicable law.
+
+We encourage you to review this Privacy Policy periodically to stay informed about how SAPYENS protects your information.
+
+15. Contact Us
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or the way your personal information is handled, we encourage you to contact us.
+
+SAPYENS Privacy Contact
+
+Email: privacy@sapyenslb.com
+
+Website: https://www.sapyenslb.com
+
+We are committed to responding to privacy-related inquiries as promptly as reasonably possible and in accordance with applicable law.
+
+Thank you for trusting Ziko AI.
+
+At SAPYENS, we are committed to building products that respect your privacy, protect your information, and earn your trust every day.
