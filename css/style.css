@@ -1473,21 +1473,20 @@ body {
 .social-page {
     min-height: 100vh;
     overflow: hidden;
-    background:
-        linear-gradient(180deg, rgba(255,255,255,0.82), rgba(242,248,243,0.72)),
-        var(--background);
+    background: var(--background);
 }
 
 .social-link-section {
     min-height: 100vh;
-    padding: 178px 24px 96px;
+    min-height: 100svh;
+    padding: 44px 22px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .social-link-content {
-    width: min(100%, 470px);
+    width: min(100%, 410px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1495,58 +1494,38 @@ body {
 }
 
 .social-profile-image {
-    width: 138px;
-    height: 138px;
-    margin-bottom: 28px;
-    border-radius: 32px;
+    width: 116px;
+    height: 116px;
+    margin-bottom: 26px;
+    border-radius: 28px;
     object-fit: cover;
     border: 1px solid rgba(14,115,24,0.12);
     box-shadow:
-        0 24px 60px rgba(14,115,24,0.16),
-        0 0 0 8px rgba(255,255,255,0.68);
-}
-
-.social-link-content .hero-label {
-    margin-bottom: 16px;
-    padding: 8px 14px;
-    color: var(--primary);
-    font-weight: 800;
-    line-height: 1;
+        0 20px 45px rgba(14,115,24,0.13),
+        0 0 0 8px rgba(255,255,255,0.78);
 }
 
 .social-link-content h1 {
-    font-size: 56px;
-    line-height: 1;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.08;
     letter-spacing: 0;
 }
 
 .social-premium-divider {
-    width: 100%;
-    margin: 30px 0 34px;
+    width: 56px;
+    height: 1px;
+    margin: 16px 0 32px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
 }
 
 .social-premium-divider::before,
-.social-premium-divider::after {
-    content: "";
-    height: 1px;
-    flex: 1;
-    background: linear-gradient(90deg, transparent, rgba(14,115,24,0.24));
-}
-
-.social-premium-divider::after {
-    background: linear-gradient(90deg, rgba(234,106,19,0.24), transparent);
-}
-
+.social-premium-divider::after,
 .social-premium-divider span {
-    width: 9px;
-    height: 9px;
-    margin: 0 14px;
-    border-radius: 999px;
-    background: var(--primary);
-    box-shadow: 0 0 0 7px rgba(14,115,24,0.09);
+    display: none;
 }
 
 .social-button-stack {
@@ -1557,42 +1536,45 @@ body {
 
 .social-main-button {
     width: 100%;
-    min-height: 62px;
+    min-height: 66px;
+    padding: 18px 24px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .social-icon-buttons {
-    margin-top: 24px;
+    margin-top: 22px;
     display: flex;
     justify-content: center;
-    gap: 14px;
+    gap: 12px;
 }
 
 .social-icon-button {
-    width: 56px;
-    height: 56px;
+    width: 54px;
+    height: 54px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 16px;
-    color: var(--primary);
-    background: rgba(255,255,255,0.72);
-    border: 1px solid rgba(14,115,24,0.14);
-    box-shadow: 0 14px 34px rgba(17,17,17,0.07);
-    backdrop-filter: blur(12px);
+    border-radius: 14px;
+    color: #D7372F;
+    background: rgba(215,55,47,0.08);
+    border: 1px solid rgba(215,55,47,0.16);
+    box-shadow: 0 12px 28px rgba(215,55,47,0.08);
     transition: .25s;
 }
 
 .social-icon-button:hover {
     color: white;
-    background: var(--primary);
-    border-color: var(--primary);
+    background: #D7372F;
+    border-color: #D7372F;
     transform: translateY(-3px);
-    box-shadow: 0 18px 44px rgba(14,115,24,0.26);
+    box-shadow: 0 16px 34px rgba(215,55,47,0.22);
 }
 
 .social-icon-button svg {
-    width: 24px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
     fill: currentColor;
 }
 
@@ -1661,23 +1643,24 @@ body {
         width: 100%;
     }
 
-    .social-link-section {
-        padding-top: 164px;
-        padding-bottom: 72px;
-    }
-
     .social-link-content h1 {
-        font-size: 44px;
+        font-size: 34px;
     }
 
     .social-profile-image {
-        width: 118px;
-        height: 118px;
-        border-radius: 28px;
+        width: 108px;
+        height: 108px;
+        border-radius: 26px;
     }
 
     .social-main-button {
-        min-height: 56px;
+        min-height: 62px;
+        font-size: 17px;
+    }
+
+    .social-icon-button {
+        width: 52px;
+        height: 52px;
     }
 }
 
